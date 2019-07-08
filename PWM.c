@@ -26,20 +26,20 @@ int main(void){
 
 	while(1){
 
-		
-		
 
-		for (int i = 0; i < 9; ++i)
+		for (int i = 0; i < 99; ++i)
 		{
 			/* code */
-			_delay_ms(100);//from delay.h
-			dutyCycle +=10;
+			_delay_ms(20);//from delay.h
+			dutyCycle +=1;
 		}
-		for (int i = 0; i < 9; ++i)
+		for (int i = 0; i < 99; ++i)
 		{
-			_delay_ms(100);//from delay.h
-			dutyCycle -=10;
+			_delay_ms(20);//from delay.h
+			dutyCycle -=1;
 		}
+
+
 
 	}
 }
